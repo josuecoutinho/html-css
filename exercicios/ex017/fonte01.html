@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+            /*
+            medidas absolutas
+            cm, mm, in (polegada), px, pt, pc (paica)
+            
+            medidas relativas
+            em, ex, rem, vw, vh, %
+            
+            recomendado para fontes: px e em
+
+            16 px geralmente é o tamanho normal da fonte
+
+            pt (mais usado para impressao em papel) é maior que px
+
+            16 px geralmento é igual a 1em
+            */
+
+            font-size: 1em;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+
+            /* weight peso - width largura - height altura
+            lighter - normal - bold- bolder
+            de 100 a 900 (nuances do lighter ao bolder)*/
+
+        }
+
+        h1 {
+            /*shorthand font sempre na ordem abaixo
+            font-style -> font-weight -> font-size -> font-family*/
+
+            font: italic normal 3em sans-serif
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias a, corrupti mollitia atque esse totam fugit temporibus quo illum iste, labore quidem voluptatibus at ratione nihil expedita animi repudiandae perferendis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum enim labore, quos quibusdam vero maxime doloribus ipsam voluptatem nam molestiae facere perspiciatis eveniet rerum modi reprehenderit, illo sapiente, quod tenetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga maiores omnis modi? Fuga nulla deserunt labore expedita illum, inventore obcaecati! Maxime, architecto laudantium. Rem quos ipsum assumenda sint consequatur hic?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod expedita quas repudiandae ducimus, accusantium laborum veritatis et nesciunt deleniti sint adipisci exercitationem maiores perspiciatis? Inventore laboriosam fuga consectetur similique alias?</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laudantium expedita fugiat beatae, recusandae adipisci hic sint quibusdam laboriosam natus optio eum aut libero a excepturi ipsa corporis. Sequi, ut.</p>
+</body>
+</html>
